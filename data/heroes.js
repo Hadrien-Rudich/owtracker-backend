@@ -117,6 +117,14 @@ const heroes = [
   },
   {
     id: 15,
+    label: 'Lifeweaver',
+    slug: 'lifeweaver',
+    role:'support',
+    imageUrl: "Lifeweaver.png",
+    active: true
+  },
+  {
+    id: 16,
     label: 'Lúcio',
     slug: 'lucio',
     role:'support',
@@ -124,7 +132,7 @@ const heroes = [
     active: true
   },
   {
-    id: 16,
+    id: 17,
     label: 'Mei',
     slug: 'mei',
     role:'damage',
@@ -132,7 +140,7 @@ const heroes = [
     active: true
   },
   {
-    id: 17,
+    id: 18,
     label: 'Mercy',
     slug: 'mercy',
     role:'support',
@@ -140,7 +148,7 @@ const heroes = [
     active: true
   },
   {
-    id: 18,
+    id: 19,
     label: 'Moira',
     slug: 'moira',
     role:'support',
@@ -148,7 +156,7 @@ const heroes = [
     active: true
   },
   {
-    id: 19,
+    id: 20,
     label: 'Orisa',
     slug: 'orisa',
     role:'tank',
@@ -156,7 +164,7 @@ const heroes = [
     active: true
   },
   {
-    id: 20,
+    id: 21,
     label: 'Pharah',
     slug: 'pharah',
     role:'damage',
@@ -164,7 +172,7 @@ const heroes = [
     active: true
   },
   {
-    id: 21,
+    id: 22,
     label: 'Ramattra',
     slug: 'ramattra',
     role:'tank',
@@ -173,7 +181,7 @@ const heroes = [
   },
   
   {
-    id: 22,
+    id: 23,
     label: 'Reaper',
     slug: 'reaper',
     role:'damage',
@@ -181,7 +189,7 @@ const heroes = [
     active: true
   },
   {
-    id: 23,
+    id: 24,
     label: 'Reinhardt',
     slug: 'reinhardt',
     role:'tank',
@@ -189,7 +197,7 @@ const heroes = [
     active: true
   },
   {
-    id: 24,
+    id: 25,
     label: 'Roadhog',
     slug: 'roadhog',
     role:'tank',
@@ -197,7 +205,7 @@ const heroes = [
     active: true
   },
   {
-    id: 25,
+    id: 26,
     label: 'Sigma',
     slug: 'sigma',
     role:'tank',
@@ -205,7 +213,7 @@ const heroes = [
     active: true
   },
   {
-    id: 26,
+    id: 27,
     label: 'Sojourn',
     slug: 'sojourn',
     role:'damage',
@@ -213,7 +221,7 @@ const heroes = [
     active: true
   },
   {
-    id: 27,
+    id: 28,
     label: 'Soldier: 76',
     slug: 'soldier-76',
     role:'damage',
@@ -221,7 +229,7 @@ const heroes = [
     active: true
   },
   {
-    id: 28,
+    id: 29,
     label: 'Sombra',
     slug: 'sombra',
     role:'damage',
@@ -229,7 +237,7 @@ const heroes = [
     active: true
   },
   {
-    id: 29,
+    id: 30,
     label: 'Symmetra',
     slug: 'symmetra',
     role:'damage',
@@ -237,7 +245,7 @@ const heroes = [
     active: true
   },
   {
-    id: 30,
+    id: 31,
     label: 'Torbjörn',
     slug: 'torbjorn',
     role:'damage',
@@ -245,7 +253,7 @@ const heroes = [
     active: true
   },
   {
-    id: 31,
+    id: 32,
     label: 'Tracer',
     slug: 'tracer',
     role:'damage',
@@ -253,7 +261,7 @@ const heroes = [
     active: true
   },
   {
-    id: 32,
+    id: 33,
     label: 'Widowmaker',
     slug: 'widowmaker',
     role:'damage',
@@ -261,7 +269,7 @@ const heroes = [
     active: true
   },
   {
-    id: 33,
+    id: 34,
     label: 'Winston',
     slug: 'winston',
     role:'tank',
@@ -269,7 +277,7 @@ const heroes = [
     active: true
   },
   {
-    id: 34,
+    id: 35,
     label: 'Wrecking Ball',
     slug: 'wrecking-ball',
     role:'tank',
@@ -277,7 +285,7 @@ const heroes = [
     active: true
   },
   {
-    id: 35,
+    id: 36,
     label: 'Zarya',
     slug: 'zarya',
     role:'tank',
@@ -285,13 +293,14 @@ const heroes = [
     active: true
   },
   {
-    id: 36,
+    id: 37,
     label: 'Zenyatta',
     slug: 'zenyatta',
     role:'support',
     imageUrl: "Zenyatta.png",
     active: true
-  }
+  },
+
 ];
 
 module.exports = heroes ;

@@ -6,7 +6,7 @@ const maps = [
   label: 'Circuit Royal',
   slug: 'circuit-royal',
   type:'escort',
-  imageUrl: "Circuit_Royal.webp",
+  imageUrl: "Circuit_Royal.png",
   active: true
 },
 {
@@ -14,7 +14,7 @@ const maps = [
   label: 'Dorado',
   slug: 'dorado',
   type:'escort',
-  imageUrl: "Dorado.webp",
+  imageUrl: "Dorado.png",
 
   active: true
 },
@@ -23,7 +23,7 @@ const maps = [
   label: 'Route 66',
   slug: 'route-66',
   type:'escort',
-  imageUrl: "Route_66.webp",
+  imageUrl: "Route_66.png",
   active: true
 },
 {
@@ -31,7 +31,7 @@ const maps = [
   label: 'Junkertown',
   slug: 'junkertown',
   type:'escort',
-  imageUrl: "Junkertown.webp",
+  imageUrl: "Junkertown.png",
   active: true
 },
 {
@@ -39,7 +39,7 @@ const maps = [
   label: 'Rialto',
   slug: 'rialto',
   type:'escort',
-  imageUrl: "Rialto.webp",
+  imageUrl: "Rialto.png",
   active: true
 },
 {
@@ -47,7 +47,7 @@ const maps = [
   label: 'Havana',
   slug: 'havana',
   type:'escort',
-  imageUrl: "Havana.webp",
+  imageUrl: "Havana.png",
   active: true
 },
 {
@@ -55,7 +55,7 @@ const maps = [
   label: 'Watchpoint: Gibraltar',
   slug: 'watchpoint-gibraltar',
   type:'escort',
-  imageUrl: "Watchpoint_Gibraltar.webp",
+  imageUrl: "Watchpoint_Gibraltar.png",
   active: true
 },
 {
@@ -63,7 +63,7 @@ const maps = [
   label: 'Shambali Monastery',
   slug: 'shambali-monastery',
   type:'escort',
-  imageUrl: "Shambali_Monastery.webp",
+  imageUrl: "Shambali_Monastery.png",
   active: true
 },
 {
@@ -71,7 +71,7 @@ const maps = [
   label: 'Blizzard World',
   slug: 'blizzard-world',
   type:'hybrid',
-  imageUrl: "Blizzard_World.webp",
+  imageUrl: "Blizzard_World.png",
   active: true
 },
 {
@@ -79,7 +79,7 @@ const maps = [
   label: 'Numbani',
   slug: 'numbani',
   type:'hybrid',
-  imageUrl: "Numbani.webp",
+  imageUrl: "Numbani.png",
   active: true
 },
 {
@@ -87,7 +87,7 @@ const maps = [
   label: 'Hollywood',
   slug: 'hollywood',
   type:'hybrid',
-  imageUrl: "Hollywood.webp",
+  imageUrl: "Hollywood.png",
   active: true
 },
 {
@@ -95,7 +95,7 @@ const maps = [
   label: 'Eichenwalde',
   slug: 'eichenwalde',
   type:'hybrid',
-  imageUrl: "Eichenwalde.webp",
+  imageUrl: "Eichenwalde.png",
   active: true
 },
 {
@@ -103,7 +103,7 @@ const maps = [
   label: "King's Row",
   slug: 'kings-row',
   type:'hybrid',
-  imageUrl: "Kings_Row.webp",
+  imageUrl: "Kings_Row.png",
   active: true
 },
 {
@@ -111,7 +111,7 @@ const maps = [
   label: 'Midtown',
   slug: 'midtown',
   type:'hybrid',
-  imageUrl: "Midtown.webp",
+  imageUrl: "Midtown.png",
   active: true
 },
 {
@@ -119,7 +119,7 @@ const maps = [
   label: 'Paraíso',
   slug: 'paraiso',
   type:'hybrid',
-  imageUrl: "Paraiso.webp",
+  imageUrl: "Paraiso.png",
   active: true
 },
 {
@@ -127,7 +127,7 @@ const maps = [
   label: 'Busan',
   slug: 'busan',
   type:'control',
-  imageUrl: "Busan.webp",
+  imageUrl: "Busan.png",
   active: true
 },
   {
@@ -135,7 +135,7 @@ const maps = [
   label: 'Nepal',
   slug: 'nepal',
   type:'control',
-  imageUrl: "Nepal.webp",
+  imageUrl: "Nepal.png",
   active: true
 },
   {
@@ -143,7 +143,7 @@ const maps = [
   label: 'Illios',
   slug: 'illios',
   type:'control',
-  imageUrl: "Illios.webp",
+  imageUrl: "Illios.png",
   active: true
 },  
 {
@@ -151,7 +151,7 @@ const maps = [
   label: 'Oasis',
   slug: 'oasis',
   type:'control',
-  imageUrl: "Oasis.webp",
+  imageUrl: "Oasis.png",
   active: true
 },
 {
@@ -159,7 +159,7 @@ const maps = [
   label: 'Lijiang Tower',
   slug: 'lijiang-tower',
   type:'control',
-  imageUrl: "Lijiang_Tower.webp",
+  imageUrl: "Lijiang_Tower.png",
   active: true
 },
 {
@@ -167,7 +167,7 @@ const maps = [
   label: 'Antartic Peninsula',
   slug: 'antartic-peninsula',
   type:'control',
-  imageUrl: "Antarctic_Peninsula.webp",
+  imageUrl: "Antarctic_Peninsula.png",
   active: true
 },
 {
@@ -175,7 +175,7 @@ const maps = [
   label: 'Colosseo',
   slug: 'colosseo',
   type:'push',
-  imageUrl: "Colosseo.webp",
+  imageUrl: "Colosseo.png",
   active: true
 },
 {
@@ -183,7 +183,7 @@ const maps = [
   label: 'Esperança',
   slug: 'esperanca',
   type:'push',
-  imageUrl: "Esperanca.webp",
+  imageUrl: "Esperanca.png",
   active: true
 },
 {
@@ -191,7 +191,7 @@ const maps = [
   label: 'New Queen Street',
   slug: 'new-queen-street',
   type:'push',
-  imageUrl: "New_Queen_Street.webp",
+  imageUrl: "New_Queen_Street.png",
   active: true
 },
 ]
