@@ -1,4 +1,4 @@
-const heroesList = require('../heroes')
+const heroesList = require('./heroesData')
 
 const dataMapper = {
 

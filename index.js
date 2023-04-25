@@ -7,11 +7,13 @@ require("dotenv").config();
 
 app.use(express.urlencoded({ extended: false }));
 
-const mapRouter = require("./routes/maps");
-const heroRouter = require("./routes/heroes");
-const userRouter = require("./routes/users");
-const historyRouter = require("./routes/history");
-const profileRouter = require("./routes/profiles");
+const mapRouter = require("./routes/maps/maps");
+const heroRouter = require("./routes/heroes/heroes");
+const userRouter = require("./routes/users/users");
+const historyRouter = require("./routes/users/history");
+const profileRouter = require("./routes/users/profiles");
+const mapTypeRouter = require("./routes/maps/types");
+const heroRoleRouter = require("./routes/heroes/roles");
 
 app.use((req, res, next) => {
   res.setHeader("Access-Control-Allow-Origin", "*");
@@ -31,6 +33,8 @@ app.use("/heroes", heroRouter);
 app.use("/user", userRouter);
 app.use("/history", historyRouter);
 app.use("/profiles", profileRouter);
+app.use("/types", mapTypeRouter);
+app.use("/roles", heroRoleRouter);
 
 app.get("/", (req, res) => {
   res.send("Hello World!");

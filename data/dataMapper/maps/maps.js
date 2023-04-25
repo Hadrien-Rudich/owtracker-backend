@@ -1,4 +1,4 @@
-const mapsList = require('../maps')
+const mapsList = require('./mapsData')
 
 const dataMapper = {
 

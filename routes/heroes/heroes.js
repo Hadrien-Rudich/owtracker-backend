@@ -1,7 +1,7 @@
 const express = require("express")
 const router = express.Router()
 
-const heroController = require("../controllers/heroController")
+const heroController = require("../../controllers/heroes/heroController")
 
 
 router.get('/', heroController.findAll)

@@ -1,4 +1,4 @@
-const usersList = require('../users')
+const usersList = require('./usersData')
 
 const dataMapper = {
 

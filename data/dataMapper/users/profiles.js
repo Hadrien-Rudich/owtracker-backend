@@ -1,4 +1,4 @@
-const profileList = require('../profiles')
+const profileList = require('./profilesData')
 
 const dataMapper = {
 

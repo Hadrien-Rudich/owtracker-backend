@@ -1,4 +1,4 @@
-const dataMapper = require("../data/dataMapper/profiles");
+const dataMapper = require("../../data/dataMapper/users/profiles");
 
 
 const profileController = {

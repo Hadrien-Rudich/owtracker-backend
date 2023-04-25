@@ -1,4 +1,4 @@
-const dataMapper = require('../data/dataMapper/heroes')
+const dataMapper = require('../../data/dataMapper/heroes/heroes')
 
 const heroController = {
 

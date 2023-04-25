@@ -1,4 +1,4 @@
-const dataMapper = require('../data/dataMapper/history')
+const dataMapper = require('../../data/dataMapper/users/history')
 
 const historyController = {
 

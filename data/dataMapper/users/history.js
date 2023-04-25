@@ -1,4 +1,4 @@
-const historyList = require('../history')
+const historyList = require('./historyData')
 
 const dataMapper = {
 
